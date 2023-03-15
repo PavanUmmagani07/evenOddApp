@@ -1,0 +1,56 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.app-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Title {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+
+.paragraph {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #ffffff;
+}
+
+.note {
+  color: #1e293b;
+  font-size: 10px;
+  text-align: center;
+}
